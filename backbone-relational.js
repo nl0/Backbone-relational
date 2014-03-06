@@ -53,8 +53,8 @@
 	 **/
 	var _, Backbone, defaultScope;
 	if ( typeof exports !== 'undefined' ) {
-		_ = require( 'underscore' );
-		Backbone = require( 'backbone' );
+		_ = require('underscore');
+		Backbone = require('backbone');
 		defaultScope = Backbone;
 		if ( typeof module !== 'undefined' ) module.exports = Backbone;
 	}
